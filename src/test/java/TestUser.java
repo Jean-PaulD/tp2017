@@ -8,13 +8,17 @@ import static org.junit.Assert.*;
 
 public class TestUser {
 
+    @Test
+    public void testAddition(){
+        int result = 20+10;
+        assertEquals("not getting expected reslt", 10, result);
+    }
 
     @Test
     public void testSalary(){
 
 
         assertEquals("Salaries are not equal", 13.2f==13.2f, true);
-
 
     }
 
