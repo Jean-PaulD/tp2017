@@ -23,7 +23,8 @@ public class TestCarMap {
 
         carMap.put("key1","Audi");
         carMap.put("key2","BMW");
-        carMap.put("key3","AMG");
+        carMap.put("key3", "AMG");
+        carMap.put("key4","Lexus");
 
         assertEquals("Exception: car is not an Audi", "Audi", carMap.get("key1"));
 
